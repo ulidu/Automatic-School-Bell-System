@@ -1,0 +1,245 @@
+Line 66: Class CoolXPButton.xpButton of control xpButton13 was not a loaded control class.
+Line 120: Class isButtonTest.isButton of control isButton3 was not a loaded control class.
+Line 173: Class CoolXPButton.xpButton of control xpButton11 was not a loaded control class.
+Line 216: Class CoolXPButton.xpButton of control xpButton10 was not a loaded control class.
+Line 259: Class CoolXPButton.xpButton of control xpButton9 was not a loaded control class.
+Line 302: Class CoolXPButton.xpButton of control xpButton8 was not a loaded control class.
+Line 345: Class CoolXPButton.xpButton of control xpButton7 was not a loaded control class.
+Line 388: Class CoolXPButton.xpButton of control xpButton6 was not a loaded control class.
+Line 431: Class CoolXPButton.xpButton of control xpButton5 was not a loaded control class.
+Line 474: Class CoolXPButton.xpButton of control xpButton4 was not a loaded control class.
+Line 517: Class CoolXPButton.xpButton of control xpButton3 was not a loaded control class.
+Line 663: Class CoolXPButton.xpButton of control xpButton1 was not a loaded control class.
+Line 706: Class AquaButtonCtrl.AquaButton of control AquaButton5 was not a loaded control class.
+Line 726: Class isButtonTest.isButton of control isButton2 was not a loaded control class.
+Line 753: Class AquaButtonCtrl.AquaButton of control AquaButton3 was not a loaded control class.
+Line 772: Class isButtonTest.isButton of control isButton1 was not a loaded control class.
+Line 801: Class AquaButtonCtrl.AquaButton of control AquaButton1 was not a loaded control class.
+Line 854: Class AquaButtonCtrl.AquaButton of control AquaButton2 was not a loaded control class.
+Line 873: Class AquaButtonCtrl.AquaButton of control AquaButton4 was not a loaded control class.
+Line 892: Class AquaButtonCtrl.AquaButton of control AquaButton6 was not a loaded control class.
+Line 911: Class CoolXPButton.xpButton of control xpButton2 was not a loaded control class.
+Line 998: Class ARFlatButtonCtrl.ARFlatButton of control ARFlatButton2 was not a loaded control class.
+Line 1020: Class ARFlatButtonCtrl.ARFlatButton of control ARFlatButton1 was not a loaded control class.
+Line 1518: Class SysTrayCtl.cSysTray of control cSysTray1 was not a loaded control class.
+Line 3465: Class CoolXPButton.xpButton of control xpButton12 was not a loaded control class.
+Line 72: The property name _ExtentX in xpButton13 is invalid.
+Line 73: The property name _ExtentY in xpButton13 is invalid.
+Line 74: The property name Caption in xpButton13 is invalid.
+Line 92: The property name FontOnMouseOver in xpButton13 is invalid.
+Line 94: The property name PictureAlign in xpButton13 is invalid.
+Line 95: The property name PictureDown in xpButton13 is invalid.
+Line 96: The property name PictureOver in xpButton13 is invalid.
+Line 97: The property name ButtonStyle in xpButton13 is invalid.
+Line 106: The property name FontDown in xpButton13 is invalid.
+Line 66: Property Picture in xpButton13 could not be set.
+Line 126: The property name _ExtentX in isButton3 is invalid.
+Line 127: The property name _ExtentY in isButton3 is invalid.
+Line 128: The property name Icon in isButton3 is invalid.
+Line 129: The property name Style in isButton3 is invalid.
+Line 130: The property name Caption in isButton3 is invalid.
+Line 131: The property name IconAlign in isButton3 is invalid.
+Line 132: The property name iNonThemeStyle in isButton3 is invalid.
+Line 133: The property name Tooltiptitle in isButton3 is invalid.
+Line 134: The property name ToolTipIcon in isButton3 is invalid.
+Line 135: The property name ToolTipType in isButton3 is invalid.
+Line 136: The property name ttForeColor in isButton3 is invalid.
+Line 179: The property name _ExtentX in xpButton11 is invalid.
+Line 180: The property name _ExtentY in xpButton11 is invalid.
+Line 181: The property name Caption in xpButton11 is invalid.
+Line 199: The property name FontOnMouseOver in xpButton11 is invalid.
+Line 201: The property name PictureAlign in xpButton11 is invalid.
+Line 202: The property name PictureDis in xpButton11 is invalid.
+Line 203: The property name PictureDown in xpButton11 is invalid.
+Line 204: The property name PictureOver in xpButton11 is invalid.
+Line 205: The property name ButtonStyle in xpButton11 is invalid.
+Line 214: The property name FontDown in xpButton11 is invalid.
+Line 173: Property Picture in xpButton11 could not be set.
+Line 222: The property name _ExtentX in xpButton10 is invalid.
+Line 223: The property name _ExtentY in xpButton10 is invalid.
+Line 224: The property name Caption in xpButton10 is invalid.
+Line 242: The property name FontOnMouseOver in xpButton10 is invalid.
+Line 244: The property name PictureAlign in xpButton10 is invalid.
+Line 245: The property name PictureDis in xpButton10 is invalid.
+Line 246: The property name PictureDown in xpButton10 is invalid.
+Line 247: The property name PictureOver in xpButton10 is invalid.
+Line 248: The property name ButtonStyle in xpButton10 is invalid.
+Line 257: The property name FontDown in xpButton10 is invalid.
+Line 216: Property Picture in xpButton10 could not be set.
+Line 265: The property name _ExtentX in xpButton9 is invalid.
+Line 266: The property name _ExtentY in xpButton9 is invalid.
+Line 267: The property name Caption in xpButton9 is invalid.
+Line 285: The property name FontOnMouseOver in xpButton9 is invalid.
+Line 287: The property name PictureAlign in xpButton9 is invalid.
+Line 288: The property name PictureDis in xpButton9 is invalid.
+Line 289: The property name PictureDown in xpButton9 is invalid.
+Line 290: The property name PictureOver in xpButton9 is invalid.
+Line 291: The property name ButtonStyle in xpButton9 is invalid.
+Line 300: The property name FontDown in xpButton9 is invalid.
+Line 259: Property Picture in xpButton9 could not be set.
+Line 308: The property name _ExtentX in xpButton8 is invalid.
+Line 309: The property name _ExtentY in xpButton8 is invalid.
+Line 310: The property name Caption in xpButton8 is invalid.
+Line 328: The property name FontOnMouseOver in xpButton8 is invalid.
+Line 330: The property name PictureAlign in xpButton8 is invalid.
+Line 331: The property name PictureDis in xpButton8 is invalid.
+Line 332: The property name PictureDown in xpButton8 is invalid.
+Line 333: The property name PictureOver in xpButton8 is invalid.
+Line 334: The property name ButtonStyle in xpButton8 is invalid.
+Line 343: The property name FontDown in xpButton8 is invalid.
+Line 302: Property Picture in xpButton8 could not be set.
+Line 351: The property name _ExtentX in xpButton7 is invalid.
+Line 352: The property name _ExtentY in xpButton7 is invalid.
+Line 353: The property name Caption in xpButton7 is invalid.
+Line 371: The property name FontOnMouseOver in xpButton7 is invalid.
+Line 373: The property name PictureAlign in xpButton7 is invalid.
+Line 374: The property name PictureDis in xpButton7 is invalid.
+Line 375: The property name PictureDown in xpButton7 is invalid.
+Line 376: The property name PictureOver in xpButton7 is invalid.
+Line 377: The property name ButtonStyle in xpButton7 is invalid.
+Line 386: The property name FontDown in xpButton7 is invalid.
+Line 345: Property Picture in xpButton7 could not be set.
+Line 394: The property name _ExtentX in xpButton6 is invalid.
+Line 395: The property name _ExtentY in xpButton6 is invalid.
+Line 396: The property name Caption in xpButton6 is invalid.
+Line 414: The property name FontOnMouseOver in xpButton6 is invalid.
+Line 416: The property name PictureAlign in xpButton6 is invalid.
+Line 417: The property name PictureDis in xpButton6 is invalid.
+Line 418: The property name PictureDown in xpButton6 is invalid.
+Line 419: The property name PictureOver in xpButton6 is invalid.
+Line 420: The property name ButtonStyle in xpButton6 is invalid.
+Line 429: The property name FontDown in xpButton6 is invalid.
+Line 388: Property Picture in xpButton6 could not be set.
+Line 437: The property name _ExtentX in xpButton5 is invalid.
+Line 438: The property name _ExtentY in xpButton5 is invalid.
+Line 439: The property name Caption in xpButton5 is invalid.
+Line 457: The property name FontOnMouseOver in xpButton5 is invalid.
+Line 459: The property name PictureAlign in xpButton5 is invalid.
+Line 460: The property name PictureDis in xpButton5 is invalid.
+Line 461: The property name PictureDown in xpButton5 is invalid.
+Line 462: The property name PictureOver in xpButton5 is invalid.
+Line 463: The property name ButtonStyle in xpButton5 is invalid.
+Line 472: The property name FontDown in xpButton5 is invalid.
+Line 431: Property Picture in xpButton5 could not be set.
+Line 480: The property name _ExtentX in xpButton4 is invalid.
+Line 481: The property name _ExtentY in xpButton4 is invalid.
+Line 482: The property name Caption in xpButton4 is invalid.
+Line 500: The property name FontOnMouseOver in xpButton4 is invalid.
+Line 502: The property name PictureAlign in xpButton4 is invalid.
+Line 503: The property name PictureDis in xpButton4 is invalid.
+Line 504: The property name PictureDown in xpButton4 is invalid.
+Line 505: The property name PictureOver in xpButton4 is invalid.
+Line 506: The property name ButtonStyle in xpButton4 is invalid.
+Line 515: The property name FontDown in xpButton4 is invalid.
+Line 474: Property Picture in xpButton4 could not be set.
+Line 523: The property name _ExtentX in xpButton3 is invalid.
+Line 524: The property name _ExtentY in xpButton3 is invalid.
+Line 525: The property name Caption in xpButton3 is invalid.
+Line 543: The property name FontOnMouseOver in xpButton3 is invalid.
+Line 545: The property name PictureAlign in xpButton3 is invalid.
+Line 546: The property name PictureDis in xpButton3 is invalid.
+Line 547: The property name PictureDown in xpButton3 is invalid.
+Line 548: The property name PictureHeight in xpButton3 is invalid.
+Line 549: The property name PictureWidth in xpButton3 is invalid.
+Line 550: The property name PictureOver in xpButton3 is invalid.
+Line 551: The property name ButtonStyle in xpButton3 is invalid.
+Line 560: The property name FontDown in xpButton3 is invalid.
+Line 517: Property Picture in xpButton3 could not be set.
+Line 669: The property name _ExtentX in xpButton1 is invalid.
+Line 670: The property name _ExtentY in xpButton1 is invalid.
+Line 671: The property name Caption in xpButton1 is invalid.
+Line 689: The property name FontOnMouseOver in xpButton1 is invalid.
+Line 691: The property name PictureAlign in xpButton1 is invalid.
+Line 692: The property name PictureDown in xpButton1 is invalid.
+Line 693: The property name PictureOver in xpButton1 is invalid.
+Line 694: The property name ButtonStyle in xpButton1 is invalid.
+Line 703: The property name FontDown in xpButton1 is invalid.
+Line 704: The property name HoverRect in xpButton1 is invalid.
+Line 663: Property Picture in xpButton1 could not be set.
+Line 713: The property name _ExtentX in AquaButton5 is invalid.
+Line 714: The property name _ExtentY in AquaButton5 is invalid.
+Line 715: The property name Caption in AquaButton5 is invalid.
+Line 732: The property name _ExtentX in isButton2 is invalid.
+Line 733: The property name _ExtentY in isButton2 is invalid.
+Line 734: The property name Icon in isButton2 is invalid.
+Line 735: The property name Style in isButton2 is invalid.
+Line 736: The property name Caption in isButton2 is invalid.
+Line 737: The property name IconAlign in isButton2 is invalid.
+Line 738: The property name iNonThemeStyle in isButton2 is invalid.
+Line 739: The property name Tooltiptitle in isButton2 is invalid.
+Line 740: The property name ToolTipIcon in isButton2 is invalid.
+Line 741: The property name ToolTipType in isButton2 is invalid.
+Line 742: The property name ttForeColor in isButton2 is invalid.
+Line 759: The property name _ExtentX in AquaButton3 is invalid.
+Line 760: The property name _ExtentY in AquaButton3 is invalid.
+Line 761: The property name Caption in AquaButton3 is invalid.
+Line 778: The property name _ExtentX in isButton1 is invalid.
+Line 779: The property name _ExtentY in isButton1 is invalid.
+Line 780: The property name Icon in isButton1 is invalid.
+Line 781: The property name Style in isButton1 is invalid.
+Line 782: The property name Caption in isButton1 is invalid.
+Line 783: The property name IconAlign in isButton1 is invalid.
+Line 784: The property name iNonThemeStyle in isButton1 is invalid.
+Line 785: The property name HighlightColor in isButton1 is invalid.
+Line 786: The property name Tooltiptitle in isButton1 is invalid.
+Line 787: The property name ToolTipIcon in isButton1 is invalid.
+Line 788: The property name ToolTipType in isButton1 is invalid.
+Line 789: The property name ttBackColor in isButton1 is invalid.
+Line 790: The property name ttForeColor in isButton1 is invalid.
+Line 807: The property name _ExtentX in AquaButton1 is invalid.
+Line 808: The property name _ExtentY in AquaButton1 is invalid.
+Line 810: The property name Caption in AquaButton1 is invalid.
+Line 860: The property name _ExtentX in AquaButton2 is invalid.
+Line 861: The property name _ExtentY in AquaButton2 is invalid.
+Line 862: The property name Caption in AquaButton2 is invalid.
+Line 879: The property name _ExtentX in AquaButton4 is invalid.
+Line 880: The property name _ExtentY in AquaButton4 is invalid.
+Line 881: The property name Caption in AquaButton4 is invalid.
+Line 898: The property name _ExtentX in AquaButton6 is invalid.
+Line 899: The property name _ExtentY in AquaButton6 is invalid.
+Line 900: The property name Caption in AquaButton6 is invalid.
+Line 917: The property name _ExtentX in xpButton2 is invalid.
+Line 918: The property name _ExtentY in xpButton2 is invalid.
+Line 919: The property name Caption in xpButton2 is invalid.
+Line 937: The property name FontOnMouseOver in xpButton2 is invalid.
+Line 939: The property name PictureAlign in xpButton2 is invalid.
+Line 940: The property name PictureDown in xpButton2 is invalid.
+Line 941: The property name PictureOver in xpButton2 is invalid.
+Line 942: The property name ButtonStyle in xpButton2 is invalid.
+Line 951: The property name FontDown in xpButton2 is invalid.
+Line 952: The property name HoverRect in xpButton2 is invalid.
+Line 911: Property Picture in xpButton2 could not be set.
+Line 1004: The property name _ExtentX in ARFlatButton2 is invalid.
+Line 1005: The property name _ExtentY in ARFlatButton2 is invalid.
+Line 1007: The property name ActiveBackColor in ARFlatButton2 is invalid.
+Line 1017: The property name Caption in ARFlatButton2 is invalid.
+Line 1018: The property name Alignment in ARFlatButton2 is invalid.
+Line 1026: The property name _ExtentX in ARFlatButton1 is invalid.
+Line 1027: The property name _ExtentY in ARFlatButton1 is invalid.
+Line 1029: The property name BackColorOnClick in ARFlatButton1 is invalid.
+Line 1030: The property name ActiveBackColor in ARFlatButton1 is invalid.
+Line 1031: The property name BorderColor in ARFlatButton1 is invalid.
+Line 1041: The property name Caption in ARFlatButton1 is invalid.
+Line 1042: The property name Alignment in ARFlatButton1 is invalid.
+Line 1521: The property name _ExtentX in cSysTray1 is invalid.
+Line 1522: The property name _ExtentY in cSysTray1 is invalid.
+Line 1523: The property name InTray in cSysTray1 is invalid.
+Line 1524: The property name TrayIcon in cSysTray1 is invalid.
+Line 1525: The property name TrayTip in cSysTray1 is invalid.
+Line 3471: The property name _ExtentX in xpButton12 is invalid.
+Line 3472: The property name _ExtentY in xpButton12 is invalid.
+Line 3473: The property name Caption in xpButton12 is invalid.
+Line 3491: The property name FontOnMouseOver in xpButton12 is invalid.
+Line 3493: The property name PictureAlign in xpButton12 is invalid.
+Line 3494: The property name PictureDown in xpButton12 is invalid.
+Line 3495: The property name PictureOver in xpButton12 is invalid.
+Line 3496: The property name ButtonStyle in xpButton12 is invalid.
+Line 3505: The property name FontDown in xpButton12 is invalid.
+Line 3506: The property name OfficeBackColor in xpButton12 is invalid.
+Line 3507: The property name OfficeBackColorDown in xpButton12 is invalid.
+Line 3508: The property name OfficeBorder in xpButton12 is invalid.
+Line 3509: The property name OfficeBorderDown in xpButton12 is invalid.
+Line 3510: The property name BorderColor in xpButton12 is invalid.
+Line 3511: The property name HoverRect in xpButton12 is invalid.
+Line 3512: The property name FocusRectColor in xpButton12 is invalid.
+Line 3465: Property Picture in xpButton12 could not be set.

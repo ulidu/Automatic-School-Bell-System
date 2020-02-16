@@ -1,0 +1,961 @@
+Form1------------------
+
+Private Sub AquaButton1_Click()
+
+Frame1.Visible = True
+Frame1.Enabled = True
+AquaButton1.Visible = False
+
+If Frame1.Visible = True Then
+Frame2.Visible = False
+Frame3.Visible = False
+End If
+
+If Frame1.Enabled = True Then
+Frame2.Enabled = False
+Frame3.Enabled = False
+End If
+
+Frame5.Visible = False
+Label43.Visible = False
+Shape9.Visible = False
+
+If Frame1.Visible = True Then
+Frame6.Visible = False
+End If
+If Frame2.Visible = True Then
+Frame6.Visible = False
+End If
+If Frame3.Visible = True Then
+Frame6.Visible = False
+End If
+
+Timer2.Enabled = True
+
+Timer3.Enabled = False
+Timer4.Enabled = False
+
+End Sub
+
+Private Sub AquaButton2_Click()
+
+Frame1.Visible = False
+Frame1.Enabled = False
+AquaButton1.Visible = True
+
+If Frame1.Visible = False Then
+Frame6.Visible = True
+End If
+If Frame2.Visible = False Then
+Frame6.Visible = True
+End If
+If Frame3.Visible = False Then
+Frame6.Visible = True
+End If
+
+Timer2.Enabled = False
+Text2.Text = ""
+
+Timer3.Enabled = False
+Timer4.Enabled = False
+
+End Sub
+
+Private Sub AquaButton3_Click()
+
+Frame2.Visible = True
+Frame2.Enabled = True
+AquaButton3.Visible = False
+
+If Frame2.Visible = True Then
+Frame1.Visible = False
+Frame3.Visible = False
+End If
+
+If Frame2.Enabled = True Then
+Frame1.Enabled = False
+Frame3.Enabled = False
+End If
+
+If Frame2.Enabled = True Then
+Frame5.Visible = True
+End If
+
+Label43.Visible = True
+Shape9.Visible = True
+
+If Frame1.Visible = True Then
+Frame6.Visible = False
+End If
+If Frame2.Visible = True Then
+Frame6.Visible = False
+End If
+If Frame3.Visible = True Then
+Frame6.Visible = False
+End If
+
+Timer2.Enabled = False
+Text2.Text = ""
+
+Timer3.Enabled = True
+Timer4.Enabled = False
+
+End Sub
+
+Private Sub AquaButton4_Click()
+
+Frame2.Visible = False
+Frame2.Enabled = False
+AquaButton3.Visible = True
+
+If Frame2.Visible = False Then
+Frame5.Visible = False
+End If
+
+Label43.Visible = False
+Shape9.Visible = False
+
+If Frame1.Visible = False Then
+Frame6.Visible = True
+End If
+If Frame2.Visible = False Then
+Frame6.Visible = True
+End If
+If Frame3.Visible = False Then
+Frame6.Visible = True
+End If
+
+Timer2.Enabled = False
+Text2.Text = ""
+
+Timer3.Enabled = False
+Timer4.Enabled = False
+
+End Sub
+
+Private Sub AquaButton5_Click()
+
+Frame3.Visible = True
+Frame3.Enabled = True
+AquaButton5.Visible = False
+
+If Frame3.Enabled = True Then
+Frame1.Enabled = False
+Frame2.Enabled = False
+End If
+
+Frame1.Visible = False
+Frame2.Visible = False
+
+Frame5.Visible = False
+Label43.Visible = False
+Shape9.Visible = False
+
+If Frame1.Visible = True Then
+Frame6.Visible = False
+End If
+If Frame2.Visible = True Then
+Frame6.Visible = False
+End If
+If Frame3.Visible = True Then
+Frame6.Visible = False
+End If
+
+If Frame3.Enabled = True And Frame3.Visible = True Then
+End If
+
+Timer2.Enabled = False
+Text2.Text = ""
+
+Timer3.Enabled = False
+Timer4.Enabled = True
+
+
+End Sub
+
+Private Sub AquaButton6_Click()
+
+Frame3.Visible = False
+Frame3.Enabled = False
+AquaButton5.Visible = True
+
+If Frame1.Visible = False Then
+Frame6.Visible = True
+End If
+If Frame2.Visible = False Then
+Frame6.Visible = True
+End If
+If Frame3.Visible = False Then
+Frame6.Visible = True
+End If
+
+Timer2.Enabled = False
+Text2.Text = ""
+
+Timer3.Enabled = False
+Timer4.Enabled = False
+
+End Sub
+
+Private Sub ARFlatButton1_Click()
+
+Frame5.Visible = False
+Label43.Visible = False
+Shape9.Visible = False
+
+Text15.Text = Text36.Text
+
+If Text36.Text = "" Then
+Frame5.Visible = True
+Label43.Visible = True
+Shape9.Visible = True
+End If
+
+If Text36.Text = "--:-- AM" Then
+Frame5.Visible = True
+Label43.Visible = True
+Shape9.Visible = True
+End If
+
+
+
+Text44.Text = Val(Text20.Text) - Val(Text36.Text)
+Text37.Text = Val(Text44.Text) / 100
+Text43.Text = Val(Text44.Text) Mod 100
+Text58.Text = Int(Text37.Text)
+
+If Text43.Text > 10 Then
+Text61.Text = Val(Text43.Text) - 40
+Else: Text61.Text = Text43.Text
+End If
+
+Text57.Text = Val(Text58.Text) * 60
+Text59.Text = Val(Text61.Text) + Val(Text57.Text)
+Text60.Text = Val(Text59.Text) / 5
+
+Text62.Text = Val(Text15.Text) + Val(Text60.Text)
+
+Text63.Text = Val(Text62.Text) Mod 100
+Text64.Text = Val(Text62.Text) / 100
+Text65.Text = Int(Text64.Text)
+
+If Text63.Text >= 60 Then
+Text66.Text = Val(Text63.Text) - 60
+Else: Text66.Text = Text63.Text
+End If
+
+If Text63.Text >= 60 Then
+Text67.Text = Val(Text65.Text) + 1
+Else: Text67.Text = Text65.Text
+End If
+If Text66.Text < 10 Then
+Text66.Text = "0" + Text66.Text
+Else: Text66.Text = Text66.Text
+End If
+Text16.Text = "0" + Text67.Text + Text66.Text
+If Text16.Text <= 1000 Then
+Text16.Text = "0" + Text67.Text + Text66.Text
+Else: Text16.Text = Text67.Text + Text66.Text
+End If
+
+Text68.Text = Val(Text16.Text) + Val(Text60.Text)
+
+Text69.Text = Val(Text68.Text) Mod 100
+Text70.Text = Val(Text68.Text) / 100
+Text71.Text = Int(Text70.Text)
+
+If Text69.Text >= 60 Then
+Text72.Text = Val(Text69.Text) - 60
+Else: Text72.Text = Text69.Text
+End If
+
+If Text69.Text >= 60 Then
+Text73.Text = Val(Text71.Text) + 1
+Else: Text73.Text = Text71.Text
+End If
+If Text72.Text < 10 Then
+Text72.Text = "0" + Text72.Text
+Else: Text72.Text = Text72.Text
+End If
+Text17.Text = "0" + Text73.Text + Text72.Text
+If Text17.Text <= 1000 Then
+Text17.Text = "0" + Text73.Text + Text72.Text
+Else: Text17.Text = Text73.Text + Text72.Text
+End If
+
+
+
+
+Text74.Text = Val(Text17.Text) + Val(Text60.Text)
+
+Text75.Text = Val(Text74.Text) Mod 100
+Text76.Text = Val(Text74.Text) / 100
+Text77.Text = Int(Text76.Text)
+
+If Text75.Text >= 60 Then
+Text76.Text = Val(Text75.Text) - 60
+Else: Text76.Text = Text75.Text
+End If
+
+If Text75.Text >= 60 Then
+Text79.Text = Val(Text77.Text) + 1
+Else: Text79.Text = Text77.Text
+End If
+If Text76.Text < 10 Then
+Text76.Text = "0" + Text76.Text
+Else: Text76.Text = Text76.Text
+End If
+Text18.Text = "0" + Text79.Text + Text76.Text
+If Text18.Text <= 1000 Then
+Text18.Text = "0" + Text79.Text + Text76.Text
+Else: Text18.Text = Text79.Text + Text76.Text
+End If
+
+
+
+
+
+
+
+Text80.Text = Val(Text18.Text) + Val(Text60.Text)
+
+Text81.Text = Val(Text80.Text) Mod 100
+Text82.Text = Val(Text80.Text) / 100
+Text83.Text = Int(Text82.Text)
+
+If Text81.Text >= 60 Then
+Text82.Text = Val(Text81.Text) - 60
+Else: Text82.Text = Text81.Text
+End If
+
+If Text81.Text >= 60 Then
+Text85.Text = Val(Text83.Text) + 1
+Else: Text85.Text = Text83.Text
+End If
+If Text82.Text < 10 Then
+Text82.Text = "0" + Text82.Text
+Else: Text82.Text = Text82.Text
+End If
+Text19.Text = "0" + Text85.Text + Text82.Text
+If Text19.Text <= 1000 Then
+Text19.Text = "0" + Text85.Text + Text82.Text
+Else: Text19.Text = Text85.Text + Text82.Text
+End If
+
+End Sub
+
+Private Sub ARFlatButton2_Click()
+
+Text36.Text = ""
+Text37.Text = ""
+
+End Sub
+
+Private Sub Form_Load()
+
+
+If Text1.Text = Text4.Text And Text1.Text < Text5.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "1"
+End If
+If Text1.Text = Text5.Text And Text1.Text < Text6.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "2"
+End If
+If Text1.Text = Text6.Text And Text1.Text < Text7.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "3"
+End If
+If Text1.Text = Text7.Text And Text1.Text < Text8.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "4"
+End If
+If Text1.Text = Text8.Text And Text1.Text < Text9.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "5"
+End If
+If Text1.Text = Text10.Text And Text1.Text < Text11.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "6"
+End If
+If Text1.Text = Text11.Text And Text1.Text < Text12.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "7"
+End If
+If Text1.Text = Text12.Text And Text1.Text < Text13.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "8"
+End If
+
+End Sub
+
+Private Sub isButton1_Click()
+m1.Close
+End Sub
+
+Private Sub isButton2_Click()
+m1.URL = "Media\error.mp3"
+End Sub
+
+Private Sub isButton3_Click()
+Form2.Show
+Form1.Visible = False
+End Sub
+
+Private Sub Text1_Change()
+
+If Text1.Text = "1:30 PM" And Check1.Value = 1 Then
+Shell ("shutdown -s")
+End If
+
+
+If Frame1.Enabled = True And Text1.Text = Text4.Text Then
+m1.URL = "Media\1.mp3"
+Text39.Text = 1
+End If
+If Frame1.Enabled = True And Text1.Text = Text5.Text Then
+m1.URL = "Media\2.mp3"
+Text39.Text = 2
+End If
+If Frame1.Enabled = True And Text1.Text = Text6.Text Then
+m1.URL = "Media\3.mp3"
+Text39.Text = 3
+End If
+If Frame1.Enabled = True And Text1.Text = Text7.Text Then
+m1.URL = "Media\4.mp3"
+Text39.Text = 4
+End If
+If Frame1.Enabled = True And Text1.Text = Text8.Text Then
+m1.URL = "Media\5.mp3"
+Text39.Text = 5
+End If
+If Frame1.Enabled = True And Text1.Text = Text9.Text Then
+m1.URL = "Media\Interval.mp3"
+Text39.Text = 6
+End If
+If Frame1.Enabled = True And Text1.Text = Text10.Text Then
+m1.URL = "Media\6.mp3"
+Text39.Text = 7
+End If
+If Frame1.Enabled = True And Text1.Text = Text11.Text Then
+m1.URL = "Media\7.mp3"
+Text39.Text = 8
+End If
+If Frame1.Enabled = True And Text1.Text = Text12.Text Then
+m1.URL = "Media\8.mp3"
+Text39.Text = 9
+End If
+
+
+
+
+If Frame2.Enabled = True And Text1.Text = Text15.Text Then
+m1.URL = "Media\1.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text16.Text Then
+m1.URL = "Media\2.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text17.Text Then
+m1.URL = "Media\3.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text18.Text Then
+m1.URL = "Media\4.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text19.Text Then
+m1.URL = "Media\5.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text20.Text Then
+m1.URL = "Media\Interval.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text21.Text Then
+m1.URL = "Media\6.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text22.Text Then
+m1.URL = "Media\7.mp3"
+End If
+If Frame2.Enabled = True And Text1.Text = Text23.Text Then
+m1.URL = "Media\8.mp3"
+End If
+
+
+
+
+
+
+
+If Text1.Text = Text4.Text And Text1.Text < Text5.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "1"
+End If
+If Text1.Text = Text5.Text And Text1.Text < Text6.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "2"
+End If
+If Text1.Text = Text6.Text And Text1.Text < Text7.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "3"
+End If
+If Text1.Text = Text7.Text And Text1.Text < Text8.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "4"
+End If
+If Text1.Text = Text8.Text And Text1.Text < Text9.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "5"
+End If
+If Text1.Text = Text10.Text And Text1.Text < Text11.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "6"
+End If
+If Text1.Text = Text11.Text And Text1.Text < Text12.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "7"
+End If
+If Text1.Text = Text12.Text And Text1.Text < Text13.Text And Frame1.Visible = True And Frame1.Enabled = True Then
+Text2.Text = "8"
+End If
+
+If Text1.Text = Text15.Text And Text1.Text < Text16.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "1"
+End If
+If Text1.Text = Text16.Text And Text1.Text < Text17.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "2"
+End If
+If Text1.Text = Text17.Text And Text1.Text < Text18.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "3"
+End If
+If Text1.Text = Text18.Text And Text1.Text < Text19.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "4"
+End If
+If Text1.Text = Text19.Text And Text1.Text < Text20.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "5"
+End If
+If Text1.Text = Text21.Text And Text1.Text < Text22.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "6"
+End If
+If Text1.Text = Text22.Text And Text1.Text < Text23.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "7"
+End If
+If Text1.Text = Text23.Text And Text1.Text < Text24.Text And Frame2.Visible = True And Frame2.Enabled = True Then
+Text2.Text = "8"
+End If
+
+If Text1.Text = Text26.Text And Text1.Text < Text27.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "1"
+End If
+If Text1.Text = Text27.Text And Text1.Text < Text28.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "2"
+End If
+If Text1.Text = Text28.Text And Text1.Text < Text29.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "3"
+End If
+If Text1.Text = Text29.Text And Text1.Text < Text30.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "4"
+End If
+If Text1.Text = Text30.Text And Text1.Text < Text31.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "5"
+End If
+If Text1.Text = Text32.Text And Text1.Text < Text33.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "6"
+End If
+If Text1.Text = Text33.Text And Text1.Text < Text34.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "7"
+End If
+If Text1.Text = Text34.Text And Text1.Text < Text35.Text And Frame3.Visible = True And Frame3.Enabled = True Then
+Text2.Text = "8"
+End If
+
+
+If Text1.Text = Text9.Text Then
+Text38.Visible = True
+Text2.Text = ""
+End If
+
+
+
+End Sub
+
+
+
+Private Sub Text38_Change()
+
+If Frame2.Visible = True And Val(Text40.Text) < Val(Text15.Text) Then
+Text2.Text = ""
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text15.Text Then
+Text2.Text = "1"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text16.Text Then
+Text2.Text = "2"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text17.Text Then
+Text2.Text = "3"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text18.Text Then
+Text2.Text = "4"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text19.Text Then
+Text2.Text = "5"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text20.Text Then
+Text2.Text = "Interval"
+Text2.FontSize = 36
+End If
+If Frame2.Visible = True And Text40.Text > Text21.Text Then
+Text2.Text = "6"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text22.Text Then
+Text2.Text = "7"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text23.Text Then
+Text2.Text = "8"
+Text2.FontSize = 100
+End If
+If Frame2.Visible = True And Text40.Text > Text24.Text Then
+Text2.Text = "School Over"
+Text2.FontSize = 25
+End If
+If Frame2.Visible = True And Val(Text40.Text) > 1700 Then
+Text2.Text = ""
+Text2.FontSize = 100
+End If
+
+
+End Sub
+
+Private Sub Text40_Change()
+
+If Frame2.Enabled = True And Text40.Text = Text15.Text Then
+m1.URL = "Media\1.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text16.Text Then
+m1.URL = "Media\2.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text17.Text Then
+m1.URL = "Media\3.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text18.Text Then
+m1.URL = "Media\4.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text19.Text Then
+m1.URL = "Media\5.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text20.Text Then
+m1.URL = "Media\Interval.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text21.Text Then
+m1.URL = "Media\6.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text22.Text Then
+m1.URL = "Media\7.mp3"
+End If
+If Frame2.Enabled = True And Text40.Text = Text23.Text Then
+m1.URL = "Media\8.mp3"
+End If
+
+
+If Frame3.Enabled = True And Text40.Text = Text26.Text Then
+m1.URL = "Media\1.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text27.Text Then
+m1.URL = "Media\2.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text28.Text Then
+m1.URL = "Media\3.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text29.Text Then
+m1.URL = "Media\4.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text30.Text Then
+m1.URL = "Media\5.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text31.Text Then
+m1.URL = "Media\Interval.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text32.Text Then
+m1.URL = "Media\6.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text33.Text Then
+m1.URL = "Media\7.mp3"
+End If
+If Frame3.Enabled = True And Text40.Text = Text34.Text Then
+m1.URL = "Media\8.mp3"
+End If
+
+
+End Sub
+
+Private Sub Text41_Change()
+
+If Val(Text40.Text) < 750 Then
+Text2.Text = ""
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 750 Then
+Text2.Text = "1"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 830 Then
+Text2.Text = "2"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 910 Then
+Text2.Text = "3"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 950 Then
+Text2.Text = "4"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 1030 Then
+Text2.Text = "5"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 1110 Then
+Text2.Text = "Interval"
+Text2.FontSize = 36
+End If
+If Val(Text40.Text) > 1130 Then
+Text2.Text = "6"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 1210 Then
+Text2.Text = "7"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 1250 Then
+Text2.Text = "8"
+Text2.FontSize = 100
+End If
+If Val(Text40.Text) > 1325 Then
+Text2.Text = "School Over"
+Text2.FontSize = 25
+End If
+If Val(Text40.Text) > 1700 Then
+Text2.Text = ""
+Text2.FontSize = 100
+End If
+
+
+
+End Sub
+
+Private Sub Text86_Change()
+
+If Timer4.Enabled = True And Text40.Text < Text26.Text Then
+Text2.Text = ""
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text26.Text Then
+Text2.Text = "1"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text27.Text Then
+Text2.Text = "2"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text28.Text Then
+Text2.Text = "3"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text29.Text Then
+Text2.Text = "4"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text30.Text Then
+Text2.Text = "5"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text31.Text Then
+Text2.Text = "Interval"
+Text2.FontSize = 36
+End If
+If Timer4.Enabled = True And Text40.Text > Text32.Text Then
+Text2.Text = "6"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text33.Text Then
+Text2.Text = "7"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text34.Text Then
+Text2.Text = "8"
+Text2.FontSize = 100
+End If
+If Timer4.Enabled = True And Text40.Text > Text35.Text Then
+Text2.Text = "School Over"
+Text2.FontSize = 25
+End If
+If Timer4.Enabled = True And Val(Text40.Text) > 1700 Then
+Text2.Text = ""
+Text2.FontSize = 100
+End If
+
+End Sub
+
+Private Sub Timer1_Timer()
+
+If Timer1.Enabled = True Then
+Text1.Text = Format(Time, "h:mm AMPM")
+Text40.Text = Format(Time, "hhmm")
+Text50.Text = Format(Date, " dddd, MMMM dd, yyyy")
+End If
+
+End Sub
+
+Private Sub Timer2_Timer()
+
+If Timer2.Enabled = True Then
+Text41.Text = Val(Text41.Text) + 1
+End If
+
+End Sub
+
+Private Sub Timer3_Timer()
+
+If Timer3.Enabled = True Then
+Text38.Text = Val(Text38.Text) + 1
+End If
+
+End Sub
+
+Private Sub Timer4_Timer()
+If Timer4.Enabled = True Then
+Text86.Text = Val(Text86.Text) + 1
+End If
+End Sub
+
+Private Sub xpButton10_Click()
+m1.URL = "Media\7.mp3"
+End Sub
+
+Private Sub xpButton11_Click()
+m1.URL = "Media\8.mp3"
+End Sub
+
+Private Sub xpButton12_Click()
+
+End Sub
+
+Private Sub xpButton2_Click()
+
+If MsgBox("Are you sure you want to Exit ?", vbYesNo + vbInformation, "Exit") = vbYes Then
+End
+End If
+
+End Sub
+
+Private Sub xpButton1_Click()
+Form1.WindowState = 1
+End Sub
+
+Private Sub xpButton3_Click()
+
+m1.URL = "Media\1.mp3"
+
+End Sub
+Private Sub xpButton4_Click()
+m1.URL = "Media\2.mp3"
+
+End Sub
+Private Sub xpButton5_Click()
+m1.URL = "Media\3.mp3"
+End Sub
+
+Private Sub xpButton6_Click()
+m1.URL = "Media\4.mp3"
+End Sub
+
+Private Sub xpButton7_Click()
+m1.URL = "Media\5.mp3"
+End Sub
+
+Private Sub xpButton8_Click()
+m1.URL = "Media\Interval.mp3"
+End Sub
+
+Private Sub xpButton9_Click()
+m1.URL = "Media\6.mp3"
+End Sub
+
+
+Form2------------------
+
+Private Sub Form_Load()
+MakeTransparent Me.hWnd, 175
+End Sub
+
+Private Sub isButton1_Click()
+Form3.Show
+
+End Sub
+
+Private Sub isButton2_Click()
+Form1.Show
+Form2.Visible = False
+End Sub
+
+
+Form2------------------
+
+Private Sub isButton3_Click()
+Form2.Show
+Form3.Visible = False
+End Sub
+
+module1------------------
+
+Option Explicit
+
+Private Declare Function SetLayeredWindowAttributes Lib "user32" (ByVal hWnd As Long, ByVal crKey As Long, ByVal bAlpha As Byte, ByVal dwFlags As Long) As Long
+Private Declare Function UpdateLayeredWindow Lib "user32" (ByVal hWnd As Long, ByVal hdcDst As Long, pptDst As Any, psize As Any, ByVal hdcSrc As Long, pptSrc As Any, crKey As Long, ByVal pblend As Long, ByVal dwFlags As Long) As Long
+Private Declare Function GetWindowLong Lib "user32" Alias "GetWindowLongA" (ByVal hWnd As Long, ByVal nIndex As Long) As Long
+Private Declare Function SetWindowLong Lib "user32" Alias "SetWindowLongA" (ByVal hWnd As Long, ByVal nIndex As Long, ByVal dwNewLong As Long) As Long
+
+Private Const GWL_EXSTYLE = (-20)
+Private Const LWA_COLORKEY = &H1
+Private Const LWA_ALPHA = &H2
+Private Const ULW_COLORKEY = &H1
+Private Const ULW_ALPHA = &H2
+Private Const ULW_OPAQUE = &H4
+Private Const WS_EX_LAYERED = &H80000
+
+Public Function isTransparent(ByVal hWnd As Long) As Boolean
+On Error Resume Next
+Dim Msg As Long
+Msg = GetWindowLong(hWnd, GWL_EXSTYLE)
+If (Msg And WS_EX_LAYERED) = WS_EX_LAYERED Then
+isTransparent = True
+Else
+isTransparent = False
+End If
+If Err Then
+isTransparent = False
+End If
+End Function
+
+Public Function MakeTransparent(ByVal hWnd As Long, Perc As Integer) As Long
+Dim Msg As Long
+On Error Resume Next
+If Perc < 0 Or Perc > 255 Then
+MakeTransparent = 1
+Else
+Msg = GetWindowLong(hWnd, GWL_EXSTYLE)
+Msg = Msg Or WS_EX_LAYERED
+SetWindowLong hWnd, GWL_EXSTYLE, Msg
+SetLayeredWindowAttributes hWnd, 0, Perc, LWA_ALPHA
+MakeTransparent = 0
+End If
+If Err Then
+MakeTransparent = 2
+End If
+End Function
+
+Public Function MakeOpaque(ByVal hWnd As Long) As Long
+Dim Msg As Long
+On Error Resume Next
+Msg = GetWindowLong(hWnd, GWL_EXSTYLE)
+Msg = Msg And Not WS_EX_LAYERED
+SetWindowLong hWnd, GWL_EXSTYLE, Msg
+SetLayeredWindowAttributes hWnd, 0, 0, LWA_ALPHA
+MakeOpaque = 0
+If Err Then
+MakeOpaque = 2
+End If
+End Function
+
+
+
