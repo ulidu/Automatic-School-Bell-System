@@ -11,7 +11,9 @@ Please note that you should have installed "VB6 extended runtime setup" that I'v
 And also you have to install all the fonts in the folder named "fonts".(Automatic School Bell\Fonts)
 
 **Home Screen**
+
 ![bell](https://github.com/ulidu/Automatic-School-Bell-System/blob/master/Screenshots/b.png)
 
 **Help**
+
 ![bell](https://github.com/ulidu/Automatic-School-Bell-System/blob/master/Screenshots/c.png)
